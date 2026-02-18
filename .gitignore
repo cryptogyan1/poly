@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env files
+.env
+
+# Node (if any)
+node_modules/
+
+# Build
+dist/
+build/

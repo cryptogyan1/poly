@@ -1,0 +1,27 @@
+{
+  "polymarket": {
+    "gamma_api_url": "https://gamma-api.polymarket.com",
+    "clob_api_url": "https://clob.polymarket.com",
+    "ws_url": "wss://ws-subscriptions-clob.polymarket.com/ws/market",
+    "api_key": null,
+    "api_secret": null,
+    "api_passphrase": null
+  },
+  "trading": {
+    "min_profit_threshold": 0.005,
+    "position_sizing": {
+      "mode": "PERCENTAGE",
+      "fixed_usdc": null,
+      "percentage": 10.0,
+      "max_risk_percent": null
+    },
+    "eth_condition_id": null,
+    "btc_condition_id": null,
+    "check_interval_ms": 250
+  },
+  "wallet": {
+    "private_key": null,
+    "chain_id": 137,
+    "proxy_wallet": ""
+  }
+}
